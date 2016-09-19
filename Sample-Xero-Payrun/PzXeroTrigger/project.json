@@ -1,0 +1,10 @@
+﻿{
+  "frameworks": {
+    "net46": {
+      "dependencies": {
+        "Xero.API.SDK": "2.1.9.0",
+        "PzXero.Core": "*"
+      }
+    }
+  }
+}

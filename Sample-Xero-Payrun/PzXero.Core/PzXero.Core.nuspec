@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>PzXero.Core</id>
+    <version>1.0.0</version>
+    <authors>Patient Zero</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>PzXero Create and run fortnightly payrun</description>
+  </metadata>
+  <files>
+    <file src="bin\release\*.dll" target="lib" />
+  </files>
+</package>

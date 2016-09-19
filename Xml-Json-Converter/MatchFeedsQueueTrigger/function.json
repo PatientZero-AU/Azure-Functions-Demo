@@ -1,0 +1,22 @@
+{
+  "bindings": [
+    {
+      "name": "newQueueItem",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "xml-feeds",
+      "connection": "match-feeds-connection-string",
+      "accessRights": "Manage"
+    },
+    {
+      "type": "documentDB",
+      "name": "newJsonFeed",
+      "databaseName": "match-scores",
+      "collectionName": "EnglishPremierLeague",
+      "createIfNotExists": true,
+      "connection": "match-feeds_DOCUMENTDB",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
